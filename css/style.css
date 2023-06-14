@@ -107,6 +107,325 @@ header nav li:last-of-type a {
     color: #C0C0C0;
 }
 
+.bottom_icons {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+}
+
+.bottom_icons li {
+    font: 12px/12px 'poppinsregular';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-left: 16px;
+
+}
+
+.bottom_icons li:before {
+    content: "";
+    display: inline-block;
+    background-image: url("../images/IMAGE.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    bottom: -5px;
+}
+
+.bottom_icons li:nth-of-type(2):before {
+    background-image: url("../images/IMAGE (1).svg");
+}
+
+.bottom_icons li:nth-of-type(3):before {
+    background-image: url("../images/IMAGE (2).svg");
+    width: 32px;
+}
+
+.bottom_icons li:last-of-type:before {
+    background-image: url("../images/IMAGE (3).svg");
+    width: 10px;
+}
+
+.photography {
+    padding-top: 113px;
+    padding-bottom: 100px;
+    background-color: #000000;
+}
+
+.photography img {
+    width: 100%;
+    display: block;
+    margin-bottom: 16px;
+}
+
+.speciality {
+    max-width: 1168px;
+    margin: auto;
+}
+
+.what_we_do {
+    max-width: 413px;
+    margin: auto;
+}
+
+.what_we_do h2 {
+    margin-bottom: 15px;
+    font: 40px/42px 'poppinsregular';
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.what_we_do h3 {
+    margin-bottom: 42px;
+    font: 23px/30px 'poppinsregular';
+    text-align: center;
+    color: #C0C0C0;
+}
+
+.photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product_photo {
+    position: relative;
+    max-width: 576px;
+}
+
+.product_photo_text {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    max-width: 501px;
+
+}
+
+.product_photo_text h3 {
+    font: 14px/20px 'poppinsregular';
+    font-style: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.product_photo_text p {
+    font: 14px/20px 'poppinsregular';
+    font-style: normal;
+    margin-bottom: 20px;
+    color: #C0C0C0;
+}
+
+#product_photo {
+    display: inline-flex;
+    align-items: center;
+    font: 15px/20px 'poppinsregular';
+    text-decoration: none;
+    padding: 5px 10px 5px 4px;
+    background: #FFFFFF;
+    border-radius: 14px;
+    letter-spacing: 0.4px;
+}
+
+#product_photo::before {
+    content: "";
+    width: 32px;
+    height: 32px;
+    background-color: #000000;
+    border-radius: 50%;
+    margin-right: 6px;
+
+}
+
+.archi_photo {
+    position: relative;
+    max-width: 576px;
+}
+
+.archi_photo_text {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    max-width: 514px;
+}
+
+.archi_photo_text h3 {
+    font: 14px/20px 'poppinsregular';
+    font-style: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.archi_photo_text p {
+    font: 14px/20px 'poppinsregular';
+    font-style: normal;
+    margin-bottom: 20px;
+    color: #C0C0C0;
+}
+
+#archi_photo {
+    display: inline-flex;
+    align-items: center;
+    font: 15px/20px 'poppinsregular';
+    text-decoration: none;
+    padding: 5px 10px 5px 4px;
+    background: #FFFFFF;
+    border-radius: 14px;
+    letter-spacing: 0.4px;
+}
+
+#archi_photo::before {
+    content: "";
+    width: 32px;
+    height: 32px;
+    background-color: #000000;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+
+
+.drone_photo {
+    position: relative;
+    max-width: 576px;
+}
+
+.drone_photo_text {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    max-width: 516px;
+}
+
+.drone_photo_text h3 {
+    font: 14px/20px 'poppinsregular';
+    font-style: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.drone_photo_text p {
+    font: 14px/20px 'poppinsregular';
+    font-style: normal;
+    margin-bottom: 20px;
+    color: #C0C0C0;
+}
+
+#drone_photo {
+    display: inline-flex;
+    align-items: center;
+    font: 15px/20px 'poppinsregular';
+    text-decoration: none;
+    padding: 5px 10px 5px 4px;
+    background: #FFFFFF;
+    border-radius: 14px;
+    letter-spacing: 0.4px;
+}
+
+#drone_photo::before {
+    content: "";
+    width: 32px;
+    height: 32px;
+    background-color: #000000;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+
+
+.wildlife_photo {
+    position: relative;
+    max-width: 576px;
+}
+
+.wildlife_photo_text {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    max-width: 480px;
+}
+
+.wildlife_photo_text h3 {
+    font: 14px/20px 'poppinsregular';
+    font-style: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.wildlife_photo_text p {
+    font: 14px/20px 'poppinsregular';
+    font-style: normal;
+    margin-bottom: 20px;
+    color: #C0C0C0;
+}
+
+#wildlife_photo {
+    display: inline-flex;
+    align-items: center;
+    font: 15px/20px 'poppinsregular';
+    text-decoration: none;
+    padding: 5px 10px 5px 4px;
+    background: #FFFFFF;
+    border-radius: 14px;
+    letter-spacing: 0.4px;
+}
+
+#wildlife_photo::before {
+    content: "";
+    width: 32px;
+    height: 32px;
+    background-color: #000000;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+
+.sunset {
+    background-image: url("../images/sunset.jpg");
+    background-size: cover;
+    min-height: 600px;
+    /*background-position: center center;*/
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 62px;
+}
+
+.monstera {
+    background-image: url("../images/monstera.jpg");
+}
+
+.himalayas {
+    background-image: url("../images/himalayas.jpg");
+}
+
+.sunset article {
+    max-width: 298px;
+}
+
+.sunset article h4 {
+    font: 14px/20px 'poppinsregular';
+    font-style: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.sunset article p {
+    font: 14px/20px 'poppinsregular';
+    font-style: normal;
+    letter-spacing: 2px;
+    color: #C0C0C0;
+}
+
 .main_need {
     display: flex;
     justify-content: center;
@@ -153,45 +472,6 @@ header nav li:last-of-type a {
     background-color: #000000;
     border-radius: 50%;
     margin-right: 6px;
-}
-
-.sunset {
-    background-image: url("../images/sunset.jpg");
-    background-size: cover;
-    min-height: 600px;
-    /*background-position: center center;*/
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding-right: 62px;
-}
-
-.monstera {
-    background-image: url("../images/monstera.jpg");
-}
-
-.himalayas {
-    background-image: url("../images/himalayas.jpg");
-}
-
-.sunset article {
-    max-width: 298px;
-}
-
-.sunset article h4 {
-    font: 14px/20px 'poppinsregular';
-    font-style: normal;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-
-    color: #FFFFFF;
-}
-
-.sunset article p {
-    font: 14px/20px 'poppinsregular';
-    font-style: normal;
-    letter-spacing: 2px;
-    color: #C0C0C0;
 }
 
 .clients {
@@ -366,241 +646,4 @@ footer ul a {
 .social_links ul li:last-of-type {
     margin-left: 27px;
     margin-right: 7px;
-}
-
-.bottom_icons {
-    display: flex;
-    list-style: none;
-    position: absolute;
-    right: 40px;
-    bottom: 40px;
-}
-
-.bottom_icons li {
-    font: 12px/12px 'poppinsregular';
-    font-style: normal;
-    font-weight: 400;
-    color: #FFFFFF;
-    margin-left: 16px;
-
-}
-
-.bottom_icons li:before {
-    content: "";
-    display: inline-block;
-    background-image: url("../images/IMAGE.svg");
-    width: 16px;
-    height: 16px;
-    margin-right: 6px;
-    position: relative;
-    bottom: -5px;
-}
-
-.bottom_icons li:nth-of-type(2):before {
-    background-image: url("../images/IMAGE (1).svg");
-}
-
-.bottom_icons li:nth-of-type(3):before {
-    background-image: url("../images/IMAGE (2).svg");
-    width: 32px;
-}
-
-.bottom_icons li:last-of-type:before {
-    background-image: url("../images/IMAGE (3).svg");
-    width: 10px;
-}
-
-.speciality {
-    padding-top: 113px;
-    padding-bottom: 100px;
-    background-color: #000000;
-}
-
-.speciality h2 {
-    margin-bottom: 15px;
-    font: 40px/42px 'poppinsregular';
-    text-align: center;
-    color: #FFFFFF;
-}
-
-.speciality h3 {
-    margin-bottom: 42px;
-    font: 40px/42px 'poppinsregular';
-    text-align: center;
-    color: #C0C0C0;
-}
-
-.speciality img {
-    height: 600px;
-    width: 576px;
-}
-
-.photos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 1168px;
-    margin: auto;
-}
-
-.photos a {
-    display: inline-flex;
-    align-items: center;
-    font: 15px/20px 'poppinsregular';
-    text-decoration: none;
-    padding: 5px 10px 5px 4px;
-    background: #FFFFFF;
-    border-radius: 14px;
-    letter-spacing: 0.4px;
-    position: absolute;
-    left: 30px;
-    bottom: 30px;
-}
-
-
-.product_photo {
-    position: relative;
-}
-
-.product_photo h3 {
-    font: 14px/20px 'poppinsregular';
-    font-style: normal;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    margin-bottom: 10px;
-    position: absolute;
-    bottom: 139px;
-    left: 30px;
-}
-
-.product_photo p {
-    font: 14px/20px 'poppinsregular';
-    font-style: normal;
-    max-width: 501px;
-    margin-bottom: 17px;
-    position: absolute;
-    left: 30px;
-    bottom: 69px;
-    color: #C0C0C0;
-}
-
-#product_photo::before {
-    content: "";
-    width: 32px;
-    height: 32px;
-    background-color: #000000;
-    border-radius: 50%;
-    margin-right: 6px;
-
-}
-
-.archi_photo {
-    position: relative;
-}
-
-.archi_photo h3 {
-    font: 14px/20px 'poppinsregular';
-    font-style: normal;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    margin-bottom: 10px;
-    position: absolute;
-    bottom: 139px;
-    left: 30px;
-}
-
-.archi_photo p {
-    font: 14px/20px 'poppinsregular';
-    font-style: normal;
-    max-width: 514px;
-    margin-bottom: 17px;
-    position: absolute;
-    left: 30px;
-    bottom: 69px;
-    color: #C0C0C0;
-}
-
-#archi_photo::before {
-    content: "";
-    width: 32px;
-    height: 32px;
-    background-color: #000000;
-    border-radius: 50%;
-    margin-right: 6px;
-}
-
-
-.drone_photo {
-    position: relative;
-}
-
-.drone_photo h3 {
-    font: 14px/20px 'poppinsregular';
-    font-style: normal;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    margin-bottom: 10px;
-    position: absolute;
-    bottom: 179px;
-    left: 30px;
-}
-
-.drone_photo p {
-    font: 14px/20px 'poppinsregular';
-    font-style: normal;
-    max-width: 516px;
-    margin-bottom: 17px;
-    position: absolute;
-    left: 30px;
-    bottom: 89px;
-    color: #C0C0C0;
-}
-
-#drone_photo::before {
-    content: "";
-    width: 32px;
-    height: 32px;
-    background-color: #000000;
-    border-radius: 50%;
-    margin-right: 6px;
-}
-
-
-.wildlife_photo {
-    position: relative;
-}
-
-.wildlife_photo h3 {
-    font: 14px/20px 'poppinsregular';
-    font-style: normal;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    margin-bottom: 10px;
-    position: absolute;
-    bottom: 179px;
-    left: 30px;
-}
-
-.wildlife_photo p {
-    font: 14px/20px 'poppinsregular';
-    font-style: normal;
-    max-width: 480px;
-    margin-bottom: 17px;
-    position: absolute;
-    left: 30px;
-    bottom: 89px;
-    color: #C0C0C0;
-}
-
-#wildlife_photo::before {
-    content: "";
-    width: 32px;
-    height: 32px;
-    background-color: #000000;
-    border-radius: 50%;
-    margin-right: 6px;
 }
