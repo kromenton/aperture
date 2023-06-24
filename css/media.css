@@ -1,0 +1,101 @@
+
+@media only screen and (max-width: 1151px) {
+    .photos{
+        justify-content: center;
+    }
+}
+
+
+@media only screen and (max-width: 887px) {
+    header nav ul li {
+        margin-left: 10px;
+    }
+    header .container {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 799px) {
+    header nav a{
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 710px) {
+    header nav ul li:last-of-type a{
+        margin-left: 10px;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 675px) {
+    header .container {
+        padding: 0 5px 0 8px;
+    }
+}
+
+@media only screen and (max-width: 636px) {
+    header nav ul li:last-of-type {
+        margin-left: 7px;
+    }
+}
+
+@media only screen and (max-width: 595px) {
+    header nav ul li:first-of-type {
+        font-size: 6px;
+        margin-left: 4px;
+        margin-right: 5px;
+    }
+    header nav ul li {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .footer_subscribe {
+        display: block;
+        text-align: center;
+    }
+    .footer_subscribe form {
+        display: inline-flex;
+        margin: 20px 0;
+        width: 75%;
+    }
+    .footer_subscribe form button {
+        min-width: 40px;
+        min-height: 20px;
+    }
+    .footer_logo {
+        display: block;
+        text-align: center;
+    }
+    .footer_logo p {
+        margin-bottom: 20px;
+    }
+    .footer_logo .links {
+        display: block;
+    }
+    .footer_logo .pages {
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 459px) {
+    header nav ul {
+        display: block;
+        text-align: center;
+    }
+    header nav ul li {
+        margin-bottom: 10px;
+    }
+    footer .footer_bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+    footer .footer_bottom p {
+        margin-bottom: 20px;
+    }
+}
+
+
+

@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'poppinsregular';
     src: url('../fonts/poppins-regular-webfont.eot');
@@ -526,7 +527,6 @@ footer ul a {
 
 .footer_subscribe p {
     font: 13px/20px 'poppinsregular';
-    text-align: left;
     color: #C0C0C0;
     margin-bottom: 36px;
 }
@@ -535,7 +535,7 @@ footer ul a {
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
-    min-width: 458px;
+    width: 39%;
     margin: 40px 0;
     background: #F9FAFB;
     border: 1px solid #E5E7EB;
@@ -547,14 +547,14 @@ footer ul a {
 }
 
 .email-field_input {
+    max-width: 67%;
     border: none;
-    /*color: transparent;*/
     border-radius: 12px;
     background-color: #F9FAFB;
 }
 
 .footer_subscribe form button {
-    min-width: 63px;
+    width: 63px;
     margin: 11px 6px 11px 0;
     border-radius: 11px;
     background-color: #000000;
@@ -584,4 +584,9 @@ footer ul a {
 .social_links ul li:last-of-type {
     margin-left: 27px;
     margin-right: 7px;
+}
+
+.owl-stage {
+    display: flex;
+    align-items: center;
 }
