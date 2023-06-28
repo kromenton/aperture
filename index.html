@@ -11,14 +11,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
+
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
     <title>Aperture</title>
 
 
-
 </head>
 <body>
+
+<div id="dialog" title="Template">
+    <a download="https://github.com/kromenton/aperture/archive/refs/heads/main.zip" href="#">
+        <img src="images/logo.svg" alt="Download GIT"></a>
+    <p class="p_dialog">for free</p>
+    <form name="subscribe" action="#" method="post">
+        <label class="email-field_label" for="template_email"></label>
+        <input class="dialog-field_input" type="email" placeholder="email" name="email" id="template_email">
+        <label class="email-field_label" for="template_pass"></label>
+        <input class="pass-field_input" type="password" placeholder="password" name="email" id="template_pass">
+        <button type="submit" name="send_email" id="dialog_email">Get template</button>
+    </form>
+
+</div>
+
 <header>
     <div class="container">
         <a href="index.html">
@@ -38,7 +56,7 @@
                     <a href="#">Contact</a>
                 </li>
                 <li>
-                    <a href="#"><i class="fa-solid fa-user"></i>Get template</a>
+                    <a href="#" id="opener"><i class="fa-solid fa-user"></i>Get template</a>
                 </li>
             </ul>
         </nav>
@@ -164,6 +182,21 @@
                 <a href="#">
                     <img src="images/clients_5.svg" alt="client">
                 </a>
+                <a href="#">
+                    <img src="images/clients_1.svg" alt="client">
+                </a>
+                <a href="#">
+                    <img src="images/clients_2.svg" alt="client">
+                </a>
+                <a href="#">
+                    <img src="images/clients_3.svg" alt="client">
+                </a>
+                <a href="#">
+                    <img src="images/clients_4.svg" alt="client">
+                </a>
+                <a href="#">
+                    <img src="images/clients_5.svg" alt="client">
+                </a>
             </div>
         </div>
     </section>
@@ -250,8 +283,14 @@
 </footer>
 
 <script src="https://kit.fontawesome.com/6e818f4952.js" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+        crossorigin="anonymous"></script>
 <script src="js/owl.carousel.js"></script>
+
+
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+
 <script src="js/scripts.js"></script>
 
 

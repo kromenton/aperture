@@ -4,7 +4,7 @@ $(document).ready(function(){
         autoplay:false,
         autoplayTimeout:2000,
         navText: [ '', ' ' ],
-        nav: false,
+        nav: true,
         dots: true,
 
 
@@ -23,4 +23,22 @@ $(document).ready(function(){
             }
         }
     });
+    $( function() {
+        $( "#dialog" ).dialog({
+            autoOpen: false,
+            modal: true,
+            show: {
+                effect: "blind",
+                duration: 1000
+            },
+            hide: {
+                effect: "explode",
+                duration: 1000
+            }
+        });
+
+        $( "#opener" ).on( "click", function() {
+            $( "#dialog" ).dialog( "open" );
+        });
+    } );
 });
